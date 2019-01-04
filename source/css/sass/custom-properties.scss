@@ -1,0 +1,27 @@
+@import "variables/color";
+
+@at-root {
+  :root {
+    --color-primary-normal: #{$color-primary-normal};
+    --color-primary-light: #{$color-primary-light};
+    --color-primary-dark: #{$color-primary-dark};
+    --color-text-normal: #{$color-text-normal};
+    --color-text-reverse: #{$color-text-reverse};
+    --color-text-secondary: #{$color-text-secondary};
+    --color-text-secondary__reverse: #{$color-text-secondary__reverse};
+    --color-text-placeholder: #{$color-text-placeholder};
+    --color-text-dividers: #{$color-text-dividers};
+    --color-text-dividers__reverse: #{$color-text-dividers__reverse};
+    --color-text-ui_background: #{$color-text-ui_background};
+    --color-text-ui_background_hue: #{$color-text-ui_background_hue};
+    --color-text-ui_code: #{$color-text-ui_code};
+    --color-text-ui_background__reverse: #{$color-text-ui_background__reverse};
+    --color-text-ui_background_hue__reverse: #{$color-text-ui_background_hue__reverse};
+    --color-background: #{$color-background};
+    --color-information: #{$color-information};
+    --color-success: #{$color-success};
+    --color-success_dark: #{$color-success_dark};
+    --color-attention: #{$color-attention};
+    --color-warning: #{$color-warning};
+  }
+}
