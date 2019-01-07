@@ -2,6 +2,18 @@
 
 @at-root {
   :root {
+
+    // The custom property list may be derived with the following code, instead of being explicitly stated.
+    //     @each $color-name, $value in $colors {
+    //      #{--color-}#{$color-name}: $value;
+    //    }
+    //
+    // This reduces duplication, as variables/color is then the single source of truth for the color data, but it
+    // does not make the custom properties available to IDEs though, which is not a great developer experience.
+
+    // As both variables/color, and the custom property list here are derived from the custom config, I think it's
+    // okay to explicitly state both.
+
     --color-primary-normal: #{$color-primary-normal};
     --color-primary-light: #{$color-primary-light};
     --color-primary-dark: #{$color-primary-dark};
